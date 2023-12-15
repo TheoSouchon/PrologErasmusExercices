@@ -1,0 +1,1 @@
+interTree(t1(X,_,_),t2(Y,T3,T4),_):-sbt(X,t2(Y,T3,T4)).

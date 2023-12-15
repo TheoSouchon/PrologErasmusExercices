@@ -1,0 +1,3 @@
+split([],[],[]).
+split([X],[X],[]).
+split([X|L],[X|L1],L2):- split(L,L1,L2).
